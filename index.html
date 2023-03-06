@@ -1,1 +1,74 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple HTML Tool</title>
+	<style>
+		body {
+			background-color: #212121;
+			color: #fff;
+			font-family: sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #424242;
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		}
+		h1 {
+			font-size: 48px;
+			margin: 0;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		p {
+			font-size: 24px;
+			margin: 0;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		a {
+			display: inline-block;
+			background-color: #ff8a65;
+			color: #fff;
+			font-size: 24px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			text-decoration: none;
+			text-align: center;
+			transition: background-color 0.2s;
+		}
+		a:hover {
+			background-color: #ff7043;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<h1>Dylan's HTML Tools</h1>
+			<p>Choose a tool:</p>
+			<div>
+				<a href="#">Soon</a>
+				<a href="/latin2cyrillic">LatinToCyrillic</a>
+				<a href="#">Soon</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
